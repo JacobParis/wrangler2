@@ -657,7 +657,6 @@ function useProxy({
   publicRoot: void | string;
   port: number;
 }) {
-  // const tokenRef = useRef<void |{host:string, value:string}>(token);
   useEffect(() => {
     if (!token) return;
     // TODO(soon): since headers are added in callbacks, the server
